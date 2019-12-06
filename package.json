@@ -1,0 +1,16 @@
+{
+  "name": "mypostmantraining",
+  "version": "1.0.0",
+  "description": "postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-preprod": "newman run tests/jsonplceholder.postman_collection.json"
+  },
+  "author": "naresh khunt",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^4.5.7"
+  }
+}
